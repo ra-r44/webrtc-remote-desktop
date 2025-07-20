@@ -1,0 +1,19 @@
+{
+  "name": "webrtc-backend",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "build": "echo 'No build needed'"
+  },
+  "dependencies": {
+    "express": "^4.21.2",
+    "ws": "^8.18.0",
+    "nanoid": "^5.1.5",
+    "zod": "^3.24.2",
+    "cors": "^2.8.5"
+  },
+  "engines": {
+    "node": "18.x"
+  }
+}
